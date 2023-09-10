@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.paginas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 2rem;
+  }
+
+  .tarjeta {
+
+    align-items: center;
+    border: gainsboro 1px solid;
+    background-color: #f5f5f5;
+    width: 100%;
+  }
+  
+  .tarjeta-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+
+  }
+
+  .descripcion-item{
+    display: flex;
+    padding-bottom: 1rem;
+    height: 100%;
+  }
+  
+  .mis-rutas{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    margin: 3rem 3rem 0rem 3rem;
+  }
+
+
+  .imagen-borde{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+
+  }
+
+  .imagen-borde img{
+    width: 30%;
+  }
+
+  .imagen-stickers{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+
+  }
+
+  .imagen-stickers img{
+    width: 70%;
+    padding: 2rem;
+  }
+
+  input{
+    border-radius: 10px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+
+  .validaciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .validaciones button{
+    margin: 2rem;
+  }
